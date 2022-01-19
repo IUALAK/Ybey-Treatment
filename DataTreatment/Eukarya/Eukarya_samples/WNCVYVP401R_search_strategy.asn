@@ -1,0 +1,2244 @@
+Blast4-request ::= {
+  body queue-search {
+    program "blastp",
+    service "plain",
+    queries bioseq-set {
+      seq-set {
+        seq {
+          id {
+            local str "Query_521704"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Acanthamoeba castellanii (Amoebozoa; Discosea);
+ RT11_ACACA"
+                }
+              }
+            },
+            title "Acanthamoeba castellanii (Amoebozoa; Discosea); RT11_ACACA"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 173,
+            seq-data ncbieaa "MKILKPITFRKPRIISQKKVLRSKLSKVKKSPWYKAKKNYVSFRQRLV
+LAKKNPNKKRYYLFFSKKRNNVFLTITDVIGRVVVSQSAGSCKITTKKKKRSPDTLKTVSASVAKIARAKNIKYLFKF
+FMNTNQTKIGKTIFESFKKTGLFILQGVVVKNKSHGLLMRKKKAKRL"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521705"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Dictyostelium discoideum (Amoebozoa; Evosea);
+ Q2LCP3_DICCI"
+                }
+              }
+            },
+            title "Dictyostelium discoideum (Amoebozoa; Evosea); Q2LCP3_DICCI"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 127,
+            seq-data ncbieaa "MQNKKIAHIVRIEMFEEKIDRLDLIFTKYVEYKFPLYLLGKLWLYKFI
+RRKFNLIGPLNEQILSPYLQFNLYFDKSKARKETFKVYLGKIGFVLLHVFYLSCIAYYDSFLYAKVMNDWLEEVMRTRY"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521706"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Saccharomyces cerevisiae (Opisthokonta; Fungi;
+ Dikarya; Ascomycota); RT18_YEAST"
+                }
+              }
+            },
+            title "Saccharomyces cerevisiae (Opisthokonta; Fungi; Dikarya;
+ Ascomycota); RT18_YEAST"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 217,
+            seq-data ncbieaa "MLLQPVWKGCRWTQFVRPIRRWNSTGTNRGVPFSFKDISNQEDITNIS
+YPSSSDSVLTKSNGSSEVYKPKEEVVKYILHGKFTKNNTHLTFSSVVEDKNFHKNKGLTYNDTMLYYLNLPQKVKISL
+STGCLGFRKAARGEYEAAFQTSGRMFELIKEKNMLNKDIEVVMDDFGKGRAAFISALVGKEGASVVKKVVKISDATKL
+KFGGVRSPKMRRL"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521707"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Schizosaccharomyces pombe (Opisthokonta; Fungi;
+ Dikarya; Ascomycota); RT18_SCHPO"
+                }
+              }
+            },
+            title "Schizosaccharomyces pombe (Opisthokonta; Fungi; Dikarya;
+ Ascomycota); RT18_SCHPO"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 223,
+            seq-data ncbieaa "MVLKHSVTYNLSFFISFTFSSIFFSSLILFLVYKSVLSKLFFIKYLML
+NLTKVGLRRFWSQSPRRNAPKKELSSLLESTITPKAFSKRTEEPNPIMQGTDTIPMPFYLHAKCLKNNTHITLCSPER
+KIIFRASGGTCGFRKGKRRGYDAAYTICSKVLEQIQVKRLGIENLHVIFHGFSQAREAVQNCLLGQEGAVIRDKIVKV
+MDRTPIKFGGPRGRRERRI"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521708"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Mitosporidium daphniae (Opisthokonta; Fungi;
+ Microsporidia); A0A098VT60_9MICR"
+                }
+              }
+            },
+            title "Mitosporidium daphniae (Opisthokonta; Fungi;
+ Microsporidia); A0A098VT60_9MICR"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 194,
+            seq-data ncbieaa "MWGLPLLCTFSTNSKKGPILKKIYSSFFPLPSDPWLKVTGVNGRPETL
+FGSMYNNDDKSSLMKSHFGSPQWMGSASTILTDLAPKLLIKCTLNNIFLELSGEKGRPIWAISAGCLGFKNAQKTTNK
+TALAMMDALWLKLSQLSISKIRVDFRGVNPARQILLSQLRRPGLEIAEIMDTTPKPFNGPRPKKARRI"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521709"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Mucor ambiguus (Opisthokonta; Fungi;
+ Mucoromycota); A0A0C9M915_9FUNG"
+                }
+              }
+            },
+            title "Mucor ambiguus (Opisthokonta; Fungi; Mucoromycota);
+ A0A0C9M915_9FUNG"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 211,
+            seq-data ncbieaa "MLALKHTVPKACTQLRACAQVSQQRWTSSTTPQKADEKPTGQMEGILN
+ALGVSKDYDASSILSEAAANTTKNDKKTSSLFALNNTFTHTLNNLNQSPHQLHINATFNNTIITLTRPNGAPLVTTSG
+GSAGFKKAARSGYEAAHQAAIQLLEKMDVKNLQVPNVHIVLKGFGPGRDAAFKALVSGTSWNVKRITDATPIPFGGCR
+PKKARRL"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521710"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Homo sapiens (Opisthokonta; Metazoa; Eumetazoa;
+ Bilateria; Deuterostomia; Chordata); RT11_HUMAN"
+                }
+              }
+            },
+            title "Homo sapiens (Opisthokonta; Metazoa; Eumetazoa; Bilateria;
+ Deuterostomia; Chordata); RT11_HUMAN"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 194,
+            seq-data ncbieaa "MQAVRNAGSRFLRSWTWPQTAGRVVARTPAGTICTGARQLQDAAAKQK
+VEQNAAPSHTKFSIYPPIPGEESSLRWAGKKFEEIPIAHIKASHNNTQIQVVSASNEPLAFASCGTEGFRNAKKGTGI
+AAQTAGIAAAARAKQKGVIHIRVVVKGLGPGRLSAMHGLIMGGLEVISITDNTPIPHNGCRPRKARKL"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521711"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Strongyloides ratti (Opisthokonta; Metazoa;
+ Eumetazoa; Bilateria; Protostomia; Ecdyzoa; Nematoda); A0A090KZP5_STRRB"
+                }
+              }
+            },
+            title "Strongyloides ratti (Opisthokonta; Metazoa; Eumetazoa;
+ Bilateria; Protostomia; Ecdyzoa; Nematoda); A0A090KZP5_STRRB"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 375,
+            seq-data ncbieaa "MSELSSLLSDNSGVPETIDNSSNVNEQKATNNDDKMDTLEIEQEEDRN
+MDVQEGTEQGKTKFKVLLDSVKDEPLKETRLSIAVEDLLVHYHGLLSSFRVTCSSHLVSALDLPLKETAEIISKQVKD
+AALDVQSEFNKAYVQWKLSNPEEAEAEELNDITKAVERQNCLLNKFMFNLQNIVSKTGIFSKQIYNIIHRPLSTSNVA
+LRSIRDLTNASSDEKNRSSTIEGTVGSEKWRTIDTSNFDDRLPGPELLTTSFDGILYKDLPIVYIKATKNNTLITVTD
+SDYNEITYTSCRLEGFKNAKKKSTIAGQTTGEAAGQRLKRRGILTVRVVVKGIGPGRISSVLGLAKCGINVVTITDNT
+PLNELGPRPRKIRRV"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521712"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Drosophila melanogaster (Opisthokonta; Metazoa;
+ Eumetazoa; Bilateria; Protostomia; Ecdyzoa; Panarthropoda; Arthropoda);
+ Q9VEN6_DROME"
+                }
+              }
+            },
+            title "Drosophila melanogaster (Opisthokonta; Metazoa; Eumetazoa;
+ Bilateria; Protostomia; Ecdyzoa; Panarthropoda; Arthropoda); Q9VEN6_DROME"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 200,
+            seq-data ncbieaa "MSLKSVFLSALRSITMPAVPLQTSRIHTSACWRKAEDRKEMLASLPAK
+DEGTVGEKTVDIDTLINRKAKFFPDASTANTLFNGIPFNELPICNIRVSPNNTIISVTDHKGVLRLIRSCGIEGFKNT
+RKGTNIAAQATAVTISGKAIELGWKTVRVKVRGLGPGRMSAIKGLQMGGLNIVSITDNTHVSFNPPRPRKQRSL"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521713"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Trypanosoma brucei brucei (Discoba; Euglenozoa;
+ Kinetoplastea); Q389T7_TRYB2"
+                }
+              }
+            },
+            title "Trypanosoma brucei brucei (Discoba; Euglenozoa;
+ Kinetoplastea); Q389T7_TRYB2"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 326,
+            seq-data ncbieaa "MMQKSVTFLRRGKPRPRAGMFPDKYRRVPMLLKPQQGGQQYFNHFLIR
+STNDRLTQQDVDNASGQAHSFISPQLPQMDWRNMSARSSEESIREEMRQLAENDVMQHQRVFNERMWYEKEEEHRMKA
+RSCPEETSEHAISNDGAVPPPRVLGGDYFKTRFGYSLVKNSEMTQGPVDYSQLDMWGEMPRYTSDMVFLYLVSRRRNT
+YAVAYTYEGKRILNTYTAGNRGLKGGDRGFRSEGSTDNGHQVTSMYLNDLLPKLREMRASEGRPMGRGEKVELVVRVM
+GFYNGRQGAVRAVQDRANEFHVRYFEDITPFPLNGPKMPRGVFK"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521714"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Naegleria gruberi (Discoba; Heterlobosea);
+ Q9G8P7_NAEGR"
+                }
+              }
+            },
+            title "Naegleria gruberi (Discoba; Heterlobosea); Q9G8P7_NAEGR"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 593,
+            seq-data ncbieaa "MNFPSILFFYKINSHYSDIRLAFLCDYYFKLHNILFTNLYIRIYRYKL
+TKLQKKNTKMNIQEKYKKIDRDLFSDKIKKKKRSFTKRKINMDTVDNSKRSFSYSFYSFYSFNENKSVLDNKKEYNRN
+RSRKKKHYVYINKFKDCGNQYNFDPFYPGTTYKLSEYNFYRTKKIKKKNIFIPKPKVDLSTFDPRLGEANFKYFNNYL
+FNLLLEIYNNKETNKKDFLTALKNNNLFFSNFLRFLKRRISYIKIIILNFKKVLRNYIYKLNLFNQSFTLDKDSLLSL
+LSYLKLKNSFFFKLYSKLLNNYNVAFIRLDKANNIFSIYIEIYNSLLSFLKKKHSALLSKKKKKSSSKDYFKRVNRAE
+KLHSILTNLHANTMRFFNVKEMYKWERKKSKSNIYVTINQYITLYRSLFKYYFLKDHFTNNAIIYIKATATNVYLYFI
+YGNKLLFKKSCGELPDIKKKERRFWRNIYPLVESFLPFLVQMKAKYKFPFVSLYLNGSSSLCTPLISRMRKHNKKFRR
+IVYFLFNEMDFFYNKTLEIKDKYRNRYNFYPVYRLKFYSILDGFNRLSKIFFAVNKVKDITSWPYNGCKKKKKKNVR"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521715"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Reclinomonas americana (Discoba; Jakobida);
+ M4QE79_RECAM"
+                }
+              }
+            },
+            title "Reclinomonas americana (Discoba; Jakobida); M4QE79_RECAM"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 170,
+            seq-data ncbieaa "MIKELKKDNKKDINNLFYGHVHVKASFTNTIVTITDTMGNTISWASSG
+SSGFKGARRSTSYAAQAAAENAGKKAVEHGIRSVKLITRGLGPGRLSCTKGLLSAGLKISLVGDLTPIPHNGCRAKKK
+KKSIEYILEVCIINSFKVYFIVFIKWNFFIWYIKHLLFVLKYKI"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521716"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Andalucia godoyi (Discoba; Jakobida); M4QCR5_ANDGO"
+                }
+              }
+            },
+            title "Andalucia godoyi (Discoba; Jakobida); M4QCR5_ANDGO"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 127,
+            seq-data ncbieaa "MFAIPKPIKKRRDLFSGVAHVHSTFNNTIITISDEKGNTLYWCSGGLA
+GFKGARRSTSFAAQSAAEQAGRKAFEAGLLSISVVLKGIGDGRESAIRGLQSSGLKITSISDETPVPHNGCRPKKQRRV"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521717"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Malawimonas sp. strain 249 (Malawimonadida);
+ A0A0B5GWC8_9EUKA"
+                }
+              }
+            },
+            title "Malawimonas sp. strain 249 (Malawimonadida);
+ A0A0B5GWC8_9EUKA"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 271,
+            seq-data ncbieaa "MKKKKYLRSIYLKLIRNRRIKYKNKHRTLWINNKNRDLFKKLKQYINK
+NKKVKQPKFIVNIGLTFKQVLNKYSLKKNKIIYKLNKRIEKKNSFRKIRKKINKIKYKNYFKTFIRLKKKKIRRRKVK
+ENLKKKNIKEYNKRYKNKHKQKQKRRHKHKIKRTGLIYLKCTYNNIIITVTNLLGKTKLFLSTRKIGIRKNEKLSTYS
+IAQLLKVVKTHLYKFYYTKVIVNVSTIHYNNKKCINMMKKFKIKIKMIINKVPIAHNGCRKSKKRRI"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521718"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Malawimonas californiana (Malawimonadida);
+ A0A0B5GSE6_MALCL"
+                }
+              }
+            },
+            title "Malawimonas californiana (Malawimonadida); A0A0B5GSE6_MALCL"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 139,
+            seq-data ncbieaa "MTIKGISINKQSNKQIKFKTNKYIKYKIFNIYIKTTLNNTFITLTDIK
+GQIKATCSGGKLGYKGSKRSTVYATENILLKILKTCLNSGVKKVQLFFNGIGKPKKMFIKLIRKNGIKIIALNDITPI
+PYNGCRLPKKRRV"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521719"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Imasa heleensis (Malawimonadida); A0A893DCX5_9EUKA"
+                }
+              }
+            },
+            title "Imasa heleensis (Malawimonadida); A0A893DCX5_9EUKA"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 119,
+            seq-data ncbieaa "MSKLHISIVKIKITFSLRNSHVTISDVNGNILCHFSSGKLGFKGSRRG
+SSFASEVVLNNVIRYCMANNIVDTIVVLSGVGKGRKTVNRILKSSSLNILYIKDTTSTPFNGCRPPSLRRI"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521720"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Cyanophora paradoxa (Glaucocystophyceae);
+ A0A097PBN6_CYAPA"
+                }
+              }
+            },
+            title "Cyanophora paradoxa (Glaucocystophyceae); A0A097PBN6_CYAPA"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 146,
+            seq-data ncbieaa "MEILIKKNLMVNLNNTELKLKKKKKTKKKNIKRFGKLYINIKSNNIIF
+TVTNKTNKVLFVISSGMAGFKKAKRSSLYAVEVTTEQVIKKIVQSNLYKFLLYLKGSNRKKRKACILLLKKAKLFFLK
+IKDITPIAHGGCRQKKSRRL"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521721"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Marophrys sp. SRT127 (Haptista); A0A455RE39_9EUKA"
+                }
+              }
+            },
+            title "Marophrys sp. SRT127 (Haptista); A0A455RE39_9EUKA"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 181,
+            seq-data ncbieaa "MNSLLKKNNALKSTTFSFEKHTSKKANLRTPQASLHCCVIHTTLKKNN
+KNIFVNVTNTEGQTIIKFTAGSIRGGTNSAPMGKANRASSNSLPFLSRRVNTQTSRKGKKQPRTAARWIIEKISYFIR
+NNFDCVKIIVKGYTPKSLPYLRELKRQGKKLTVVYFQNRVPIPHNGCRPPRKRRI"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521722"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Hemiselmis andersenii (Cryptophyceae);
+ B2MWT6_HEMAN"
+                }
+              }
+            },
+            title "Hemiselmis andersenii (Cryptophyceae); B2MWT6_HEMAN"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 133,
+            seq-data ncbieaa "MHAQEKDNMEIKNLNQKYLLQIGIVYVYTTFNNTLMTVTDIKGKTLIF
+TSAGFLGLKGVRRSTAYAGQTLTTVLSKNMSKLGIRFIQIRLKGFGNARKSVLKGFAATNLEIISIKDFTSIAHNGCR
+RKKKRRI"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521723"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Chondrus crispus (Rhodophyta); RT11_CHOCR"
+                }
+              }
+            },
+            title "Chondrus crispus (Rhodophyta); RT11_CHOCR"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 116,
+            seq-data ncbieaa "MENKSKLIVLSILFTPNNILYYATQLNGNIIFWTSSGVHKQKNTKKVT
+LISITTVINYIKYKSVNYKGIHIRTKGFSKNKKLVIKQLKQSTLNILSISDKISWPHNGCKKRKIRRI"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521724"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Gelidiella fanii (Rhodophyta); A0A7G9IVW5_9FLOR"
+                }
+              }
+            },
+            title "Gelidiella fanii (Rhodophyta); A0A7G9IVW5_9FLOR"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 120,
+            seq-data ncbieaa "MTNLNYSKSLLLKVHFQPTNILFTLTFLKGNIVFWTSVGMWKIRGTKK
+LTLAAIEIALKAIFKKVDQLNCKFLHIELYGFNKNKKTITKSLKNGSTKIKSISDKTSNPHNGCRKKKTRRI"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521725"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Gracilaria changii (Rhodophyta); A0A1W6C6Z0_9FLOR"
+                }
+              }
+            },
+            title "Gracilaria changii (Rhodophyta); A0A1W6C6Z0_9FLOR"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 119,
+            seq-data ncbieaa "MYKSNLKSVKLNILFTSNNILCTVTDLKGRVLLWTSAGSKKNKGTKKV
+TLTAIIAILKLIFNYLNQSKIKYIHLNLNGFDRNKKIVLKYLKQSFLNILSVTNNSMLSHNGCKNLKKRYI"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521726"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Prototheca wickerhamii (Viridiplatae;
+ Chlorophyta); RT11_PROWI"
+                }
+              }
+            },
+            title "Prototheca wickerhamii (Viridiplatae; Chlorophyta);
+ RT11_PROWI"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 128,
+            seq-data ncbieaa "MLVKKSQISRKFIEKKSGIVHIQSTTNNTLITLTDLEGNTQFFVSAGT
+LGFKNSRKSTVYASGAAAEALASKAFNEGYRTIIVKIKGLGYGKKSAIRGLQKSNLVIKQIQEVTPIAHNGCRPPKKR
+RV"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521727"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Prasinoderma coloniale (Viridiplatae;
+ Prasinodermophyta); V9PA91_9VIRI"
+                }
+              }
+            },
+            title "Prasinoderma coloniale (Viridiplatae; Prasinodermophyta);
+ V9PA91_9VIRI"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 315,
+            seq-data ncbieaa "MSLSSDSSSPSLVNVHTQTQQEGDLRSMALQALRLRAKRIRHLVLRRH
+WSPAGSLPSTTLGGRKGSSLHWYLSGQNLVEEDSSRANFCEEDFPYKTRLQTLYTEGLETLSVSKTGTLQENAWATLQ
+SGRARAQASNFSETLPTLGTQEGIDTHLLHKEEARFHARFYAQQKNRFPAYGCLHVTSVANNCFLGITDIWGQSLHHA
+STGSIGFTQKQRLTHPAFALGMKMAREAFQGGMKYFLLVVSGPGRGGSAAQAGITKVVQRHWKAARKEGVHPTFKRVG
+TLFVKKAPHNGCRLPAQRRKRRKTKVRPLRLGM"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521728"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Prasinococcus sp. CCMP1194 (Viridiplatae;
+ Prasinodermophyta); A0A650AKK6_9CHLO"
+                }
+              }
+            },
+            title "Prasinococcus sp. CCMP1194 (Viridiplatae;
+ Prasinodermophyta); A0A650AKK6_9CHLO"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 111,
+            seq-data ncbieaa "MKSGVLYISMQLNNTFYSIQSVGSLSAGCAGFKGAERSTPYAVQLTAE
+KVGKLCLQKGYRSLSVVFLGNHSHRNRQAALRGLGASGIEITDLYSKIRVSYNGCRPKKKRRI"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521729"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Arabidopsis thaliana (Viridiplatae;
+ Streptophyta); RT11_ARATH"
+                }
+              }
+            },
+            title "Arabidopsis thaliana (Viridiplatae; Streptophyta);
+ RT11_ARATH"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 314,
+            seq-data ncbieaa "MNGVSRHLRASSLLSLIRSYGGINSVCRFSSQSDGFSGGRFREQVPVS
+GESANNSGLSNTGRIGSSPEPNPSTLRTFGDMKAGLLNRGVNGFSAPNAPPTFKSSLRSRLPNSLPDQFGQTNPGLPN
+TGGSGFSAPSLSSYENFTQSSSLLKENSRSGGKSSDLDFVREVIEDEGRRTAGIFSHFQRPNLETNADIIHIKMLRNN
+TFVTVTDSKGNVKCKATSGSLPDLKGGRKMTNYTADATAENIGRRAKAMGLKSVVVKVNGFTHFGKKKKAIIAFRDGF
+TNSRSDQNPIVYIEDTTRKAHNGCRLPRKRRV"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521730"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Acavomonas peruviana (Sar; Alveolata;
+ Colponemida); V5KVI1_9ALVE"
+                }
+              }
+            },
+            title "Acavomonas peruviana (Sar; Alveolata; Colponemida);
+ V5KVI1_9ALVE"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 126,
+            seq-data ncbieaa "MRIYKIKKEKINNQSNNSNLVLSMFPNNYFCVFFNKYGKMVESFSMGL
+FGYKKSKRKSIYVFKKIMNDFFVKWGSFGKVNIIINCYNFNNILVIMKILQMNKKLIDTVYVRGFYSYNGSLKKKEGR"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521731"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Plasmodium falciparum (Sar; Alveolata;
+ Apicomplexa); Q8IKT3_PLAF7"
+                }
+              }
+            },
+            title "Plasmodium falciparum (Sar; Alveolata; Apicomplexa);
+ Q8IKT3_PLAF7"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 229,
+            seq-data ncbieaa "MNVLSKNKSLVNYKTIFSSPIYMNICINHFVNKLINVYSAKSLKFTTL
+SSDAVKAITNLKESVKKPDKKKKNITRETLKNCQGHKRRYKLFGDREEFHNIDRDKNNLIIEPTDSFRAVITTSKNNV
+HIQVVNKSKNYKTIFGSFAGNVGFTKTLQQSERCAYRIGENIAKKCRRLGIFSIDIKFRRIMRVETVLQAMYANNLNI
+TQIIHEPRLPKCGLNASKPRKRRRV"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521732"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Babesia ovata (Sar; Alveolata; Apicomplexa);
+ A0A2H6KA17_9APIC"
+                }
+              }
+            },
+            title "Babesia ovata (Sar; Alveolata; Apicomplexa);
+ A0A2H6KA17_9APIC"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 226,
+            seq-data ncbieaa "MRLCNYVRRLFGAVPNSSQSQCRTKIGHRLGCSSIATLWTGSVYRRGF
+AAGSAAKLNAITSAMPGKNRMLTKAELKNFPGHLQRYKKYGGLPEFHNVDRNSHGFIALPTDRFMLVLTTSKNNVHAQ
+LVNRSRDKRTVFGSFAGNVGINKKQQQTERCAYRIGENMAKKCKRLGVFAVDVKFRRLMRIETVLQAFQAEGLHVGQL
+IHEPRLPKTGINSVRPRRRRRV"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521733"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Tetrahymena thermophila (Sar; Alveolata;
+ Ciliophora); Q950Z8_TETTH"
+                }
+              }
+            },
+            title "Tetrahymena thermophila (Sar; Alveolata; Ciliophora);
+ Q950Z8_TETTH"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 238,
+            seq-data ncbieaa "MVQKKFNFKKDSFFYEGYVWNHSLNIIHDIQLNYLDKNSNAIAIKYAK
+TLNIMSSLYRNLTFKKFDFIKIWYWYYLYYIKNIYFKNLINKNNNYVFEKPNIFVFNIKSKQIRLAVLTSKNYVYNLT
+VGKILSSLNIKEKSKKKSNKGERLFSEYLENFFKNKNIRFGTKKLAIIKLKYFKKGFKLHESIFKTLNKNLFIINTIY
+DFKVPNNFFKFKKIRSIKKRIKKKLIKDENTLNF"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521734"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Spongospora subterranea (Sar; Alveolata;
+ Endomyxa); A0A096XTV8_9EUKA"
+                }
+              }
+            },
+            title "Spongospora subterranea (Sar; Alveolata; Endomyxa);
+ A0A096XTV8_9EUKA"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 142,
+            seq-data ncbieaa "MLSNNLDFFSTNSVTHTFKKVQELFSALQYKVYFLTIRSTLNNFYITL
+TNNFGQIIVVRSGGTLKSSSKKNTSYNLELILLEIFKIFAKLQIQYILLKIDFMILKKKIITKILQKFNIKIIGIQLN
+SFPSFNGIRAKKKRRI"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521735"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Paulinella micropora (Sar; Rhizaria; Imbricatea);
+ A0A5K7W0H7_9EUKA"
+                }
+              }
+            },
+            title "Paulinella micropora (Sar; Rhizaria; Imbricatea);
+ A0A5K7W0H7_9EUKA"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 296,
+            seq-data ncbieaa "MFQLKLNNFFQKVFFFKKKDLKLVKFVNFEKYLNFLFVEVEKTFFKKK
+FFFLHFKLSNSNSYLTILYGNKLIFWNSVKSFKTKSKKFKFYFFNSIKLLCNSAIFFFGKLIKNLKKKKLNLFLLFSG
+LNKYRRYISKFFVFNSFFMVLNIYSMSFSSHNGVRCKKSRRLAKKKRRKFFMFAEFKKRKKNIFFFFFKSFDFFFLQD
+FFLKFNIFFFFNISKFNFLSFRKNEIKVLRAPISFGKQRNSFFKKVFFAKFNIFFFGSNFLRFYFLEWLRNFMLDKFS
+INLKILSKRKSYKF"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521736"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Aurantiochytrium acetophilum (Sar; Stramenopiles;
+ Bigyra; Labyrinthulomycetes); A0A481XKJ5_9STRA"
+                }
+              }
+            },
+            title "Aurantiochytrium acetophilum (Sar; Stramenopiles; Bigyra;
+ Labyrinthulomycetes); A0A481XKJ5_9STRA"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 113,
+            seq-data ncbieaa "MFSIYINSSFNNTHLSIYYNKRIVFKASSGMSSIRGSFKKNSNMSLIM
+LGVHAANFLESFFNGKPRIIFYFSGLGKGKFYILKAFQKFQIEHCYFSASVPFNGCRQKKKRRLL"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521737"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Blastocystis sp. subtype 8 (Sar; Stramenopiles;
+ Bigyra; Opalozoa); I3PIE9_9STRA"
+                }
+              }
+            },
+            title "Blastocystis sp. subtype 8 (Sar; Stramenopiles; Bigyra;
+ Opalozoa); I3PIE9_9STRA"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 206,
+            seq-data ncbieaa "MYLITNQQVANTKNTISLTKYNKFQINSSISKKTKQAIKTYDKKKTKL
+NLKFLKIYQSNTFYLQNYKIFFQQLSSNTNIINIYIQTTLNNMFITISTKNTILTKSLAAIGFKGKSKQTSYAYKTFA
+EFLVTELQTFAEQTKSQIIVNIFAKSINHKLKIFLKILSTNNIKINKIYDITPIPYNGCRKKKISIKKKKKSMIKYLS
+YR"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521738"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Endosymbiont of Kryptoperidinium foliaceum (Sar;
+ Stramenopiles; Ochrophyta; Bacillariophyta); I6N5S0_9STRA"
+                }
+              }
+            },
+            title "Endosymbiont of Kryptoperidinium foliaceum (Sar;
+ Stramenopiles; Ochrophyta; Bacillariophyta); I6N5S0_9STRA"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 186,
+            seq-data ncbieaa "MNLSHTLFNTVSNKLRLKVSLLNEEKLYVKSLRAQIESLKKIKENSYK
+DISIQKNQLENGNNQNLVIMYVINISFLKANTTIHVSDIKGNMKLFYSAGSVGLAGKQKRKRRVAALKLISLILKRAT
+FLNKKPVALHLKNVNSYKNIIVSKLKRSLFIRVVKSFNQIPYNGCRKKKVRRKKYTKKFR"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521739"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Skeletonema marinoi (Sar; Stramenopiles;
+ Ochrophyta; Bacillariophyta); A0A0S2M9U8_9STRA"
+                }
+              }
+            },
+            title "Skeletonema marinoi (Sar; Stramenopiles; Ochrophyta;
+ Bacillariophyta); A0A0S2M9U8_9STRA"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 201,
+            seq-data ncbieaa "MLSLKIANKSFFHLIWLTKIILNIYSLKLRFKIYKKETFSFYLSWLIL
+FTFTKLYHIKTKINYFTAYILFSFFTHQKLISYVINVNLSLTNTLINVNDIKGNPKFFYSAGMFNLQKTQKVRQPKAI
+ITILKSLLVKNKSFRTKPVALHFNNLFFNHQSYIYKKLKRKIFIKLVTSYNYHPHNGCRLKKKKRIKIRTRTKKL"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521740"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Chattonella marina (Sar; Stramenopiles;
+ Ochrophyta; Raphidophyceae); D2Z202_9STRA"
+                }
+              }
+            },
+            title "Chattonella marina (Sar; Stramenopiles; Ochrophyta;
+ Raphidophyceae); D2Z202_9STRA"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 159,
+            seq-data ncbieaa "MVSYSLKLLDTLTQKQSNSKSNNLLKLPETNKKKPLIKLDGILYGQFT
+NQNTIFTLTDLKGKVKTTLSNGMVGYKNSKSKTRFGTQAAAERISQKAKALGFYFITFIMKGKNKGRRKCVLTLQKSG
+LTIKNIFDQTPTIHNGCRPKKEKRTKAKTSSHK"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521741"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Heterosigma akashiwo (Sar; Stramenopiles;
+ Ochrophyta; Raphidophyceae); D2Z247_HETAK"
+                }
+              }
+            },
+            title "Heterosigma akashiwo (Sar; Stramenopiles; Ochrophyta;
+ Raphidophyceae); D2Z247_HETAK"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 135,
+            seq-data ncbieaa "MQKKFDLKSKIQKLPSKPSKIQQEGIIYGQFSKQNTIFTLTTLTGQVK
+TSVSNGMVGYKNSKSKTQFATQAAAERLGQKAKALNFGSITFVIKGKNKGRKKCVKTFQKAGLKINMIFDQTPIIHNG
+CRPPKEPRR"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521742"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Ochromonas danica (Sar; Stramenopiles;
+ Ochrophyta; Chrysophyceae); Q9G905_OCHDN"
+                }
+              }
+            },
+            title "Ochromonas danica (Sar; Stramenopiles; Ochrophyta;
+ Chrysophyceae); Q9G905_OCHDN"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 144,
+            seq-data ncbieaa "MPGRPFIPIEMDDFYTHSCFTFKVGPNNVFCTLEHFEGFKIKLLNSAS
+SGKYKIPLSKKTLKHKAKFVILSFLKEIQSKNILLTDSLCIKLTAPVRLKKVVLKLLIPYLKNKNFVVEVLPKKVFNG
+CRSRKKIRKKRKGLRLFK"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521743"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Nannochloropsis gaditana (Sar; Stramenopiles;
+ Ochrophyta; Eustigmatophyceae); K9ZVE2_9STRA"
+                }
+              }
+            },
+            title "Nannochloropsis gaditana (Sar; Stramenopiles; Ochrophyta;
+ Eustigmatophyceae); K9ZVE2_9STRA"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 157,
+            seq-data ncbieaa "MFKLKEFYQYKRELKKDNANLQDKLLSCKFQPTNQKNSVLAKSCQAIL
+YVKSSKNNTIVSLTNLKGRVQFIKSCGSLGFQGKKKRTTKFAVKSTLCFIIKKAQEQGHQKVFLHLNGFARARSAVLH
+YLNKNNLEIEGIRDLTPNPHNGCRPKKVRRV"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521744"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Ishige okamurae (Sar; Stramenopiles; Ochrophyta;
+ PX clade; Phaeophyceae); A0A4Y5T7N7_9PHAE"
+                }
+              }
+            },
+            title "Ishige okamurae (Sar; Stramenopiles; Ochrophyta; PX clade;
+ Phaeophyceae); A0A4Y5T7N7_9PHAE"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 153,
+            seq-data ncbieaa "MLEEKAFAQKVPSFRTSRIPFEQIKTGSFTFVLSSSRKNMFCVILELN
+KVKTSQSSGCLKPENEKDKKKSFRRCRRLGESIIQTGIKRFQIKSFNIYTRLSRKTNKGVLKGLTKTGKSYRMRIDYQ
+KVKPLIPHNGCRPPRSPRKKNKKRKRG"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521745"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Sargassum aquifolium (Sar; Stramenopiles;
+ Ochrophyta; PX clade; Phaeophyceae); A0A1L1ZK89_9PHAE"
+                }
+              }
+            },
+            title "Sargassum aquifolium (Sar; Stramenopiles; Ochrophyta; PX
+ clade; Phaeophyceae); A0A1L1ZK89_9PHAE"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 169,
+            seq-data ncbieaa "MLFNNRYFIETSFKFKSASHFRRKVVKNTLTVRYLNDNTRTNKLGSVY
+LRCTKRNIFCTLVDCKSRAIKTSCSLRVPDYKNEFNERENLYTRGLLLGKLFGNKIISFGYNKIIVHIMGTSKGRFGV
+VRSFSKLGINIHSIVLITRTAHNGCRPVKRRRKKLRTKVVGFK"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521746"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Aureococcus anophagefferens (Sar; Stramenopiles;
+ Ochrophyta; Pelagophyceae); A0A649UBQ5_AURAN"
+                }
+              }
+            },
+            title "Aureococcus anophagefferens (Sar; Stramenopiles;
+ Ochrophyta; Pelagophyceae); A0A649UBQ5_AURAN"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 121,
+            seq-data ncbieaa "MIKQKQLEKSLSVISIQCSSNNTIASLIDPSGNLITTLSCGYLKYKGS
+RKSTQIASQQVIFCLGEKALSLGYNRLLVKIKGIGKGRNSIIKELKKAGLELVKVIDVTPIPHNGCRIAKGKK"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521747"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Synura synuroidea (Sar; Stramenopiles;
+ Ochrophyta; Synurophyceae); Q9MGA4_9STRA"
+                }
+              }
+            },
+            title "Synura synuroidea (Sar; Stramenopiles; Ochrophyta;
+ Synurophyceae); Q9MGA4_9STRA"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 168,
+            seq-data ncbieaa "MQKQKKNLNFLQKINTRFRKKMKYKSYILNYTLNNLIYNLPKIKISLR
+VTQNNIFFTLIDLKKNETKLISSTGIEKIKTTKKLLKFSTKIILPIFFNKILTLTTNQTTIFIELNCPILIKKRLLKQ
+INKLLNKNILLINTANNKCFNGCKEKKKKRKKLRTNKFRIFK"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521748"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Triparma laevis (Sar; Stramenopiles; Ochrophyta;
+ Bolidophyceae); A0A0K2RWM4_9STRA"
+                }
+              }
+            },
+            title "Triparma laevis (Sar; Stramenopiles; Ochrophyta;
+ Bolidophyceae); A0A0K2RWM4_9STRA"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 139,
+            seq-data ncbieaa "MNKKLKKQRRGGKYTRITKDRLKLRPVKGILSLKFSRNNTVGSLSDLE
+GKIKYKVSAGLLDFKNSKKSTFYASESVVKQLASKALELGYDTIFLHLTGNGRGKNRCLDLINKKRLKVLSISDFTSS
+PHNGCRPPKIRRL"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521749"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Phytophthora sojae (Sar; Stramenopiles;
+ Oomycota); A4ZHA3_PHYSO"
+                }
+              }
+            },
+            title "Phytophthora sojae (Sar; Stramenopiles; Oomycota);
+ A4ZHA3_PHYSO"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 138,
+            seq-data ncbieaa "MNKNKFKYNFRNKFKKSKNKKKNPLILANIHITASLKNTIISLTKHNG
+NLLKQWSTKSLKKTRFKKNTPYNVQLIVYKINKYLQLKKIKKLKIFLHGTGLGRYNVLKNLKQKNFKVKYLLDKTTKP
+FNGCRLKKQKRR"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521750"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Thecamonas trahens (Apusozoa); A0A0B5H7Y1_THETB"
+                }
+              }
+            },
+            title "Thecamonas trahens (Apusozoa); A0A0B5H7Y1_THETB"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 118,
+            seq-data ncbieaa "MSAIIDTKIYIKCTLNNTIINITNAEGDSLYSISAGHLQFKKSKRTSA
+YSAKICLQKALDKVKTFKPKYISVDLKGLSFARMAILKELKNINDLPIVLFTDSTPRPFNGCRKRKQRRI"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521751"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Ancoracysta twista (Eukaryota incertae sedis);
+ A0A2H4R8E3_9EUKA"
+                }
+              }
+            },
+            title "Ancoracysta twista (Eukaryota incertae sedis);
+ A0A2H4R8E3_9EUKA"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 140,
+            seq-data ncbieaa "MLALRIKRLLERRIRQGGATILIPAATSVGVAAITSSHNNTHIHLADS
+NGKTLSALSCGTIGFVGAKRSNSYAAQTLARRTADIAVSNGINLLDLKIKGLGRGRFAAAQALRAPRLQIRSLAETTG
+IPHGGCRPSKRRRL"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521752"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Palpitomonas bilix (Eukaryota incertae sedis);
+ A0A1E1GHS6_9EUKA"
+                }
+              }
+            },
+            title "Palpitomonas bilix (Eukaryota incertae sedis);
+ A0A1E1GHS6_9EUKA"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 122,
+            seq-data ncbieaa "MKTLNDSNSVVMVININATYNNTIINVTDFKGNVTFISSAGMVGFKGA
+RRSSSFAAGAVAQKICTYLKQIKFDEIIVKIKGLGNGRESAMRTLIKYKLPIKTILDVTPRPHNGCRPCKQRRI"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521753"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Telonemida sp. (Eukaryota incertae sedis;
+ Telonemida); A0A5P8DJX1_9EUKA"
+                }
+              }
+            },
+            title "Telonemida sp. (Eukaryota incertae sedis; Telonemida);
+ A0A5P8DJX1_9EUKA"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 124,
+            seq-data ncbieaa "MTFIKQFDVKRLAIITINSTQNNTIISARDLNDRIITSSSVGLALKKR
+RGKKSVASGAQLSSGYVVSKLTSLGYSKIIIQVKGFGRGRESAIYGFSSSTLVIQRVIDVTPKPHNGCRPKKSRRI"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521754"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Eukaryota sp. BB2 (Eukaryota incertae sedis);
+ A0A1X8VEX4_9EUKA"
+                }
+              }
+            },
+            title "Eukaryota sp. BB2 (Eukaryota incertae sedis);
+ A0A1X8VEX4_9EUKA"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 712,
+            seq-data ncbieaa "MDKLKQKVNRNIDKFSDSGSHKRILLLTSRERQTRLRAEYVKKKKMDR
+FAALKKHKLLNQKLLHKIRVKRWRLRNFFKKGTGGASKSRRSKALRMKSFFKEMYCRRYKYKLRGKARGLRMALSPLR
+WFHFTTFPHEKFKKPGFLVKEFLIRGYFHNRTKRWSLRKKTKKVAKFISGLFNRIPTLDSWRYRRHLSELLYLIVFPR
+KNYLRTSLLINKKLLYITTGVTSKMLLFLRTNSPDNIMRLGSFPTNSVHLNNHYYNFVFSFLGNKNIIDSAIFEPTLN
+NKFQNDSFNVLGLYEKVLIYLNLIGLKNIKFPRSLIQQFIKLRNLKIDDKILTDTTISYLRQGLRSQSITCLKNKFIS
+IQFLNKIFLFSKLLKRRLYNLRQVDFQHIYYNLNTFYSFDYIGKYTESLFTLKRIYYSSKFSRRRKKGSLKKSRHLLR
+FYGKKFKELFKNILLQKLYFTFVRAKVRLKPVRKAKRNRLKMAKLHKWPITRRIENRSRWEIDKINTKNQDIHIKQGQ
+HSNISQSQNSGVNQMRQSKTNRPQNFNPKQWQNPKNRQWQNPKNRQWQNPKNKQWWSPKPKLRKKKIRRLGNNNKLGR
+PRVPTVVVRSTYSNTLVTLLDRNLRVRQSWSCGRIGFKKAKKSTYYASNQLGVKIGKLLREDKRWAKFFLILRGIGYG
+KKAVLKGLRQSLRLRTTLYGYIQDVSLPHNGCRSRKRKRR"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521755"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Guillardia theta (Cryptophyceae); RR11_GUITH"
+                }
+              }
+            },
+            title "Guillardia theta (Cryptophyceae); RR11_GUITH"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 130,
+            seq-data ncbieaa "MVRQVKKSSLKKNKKVAANGVVHIQSTFNNTIVTLSTLEGDTVAWASS
+GAIGFKGAKKGTPFAAQIAAEKATKEAISQGMKKAEVLINGPGSGRETAIRALQAAGLEITLIRDITPVPHNGCRPPK
+KLRV"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521756"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Euglena gracilis (Discoba; Euglenozoa;
+ Euglenophyceae); RR11_EUGGR"
+                }
+              }
+            },
+            title "Euglena gracilis (Discoba; Euglenozoa; Euglenophyceae);
+ RR11_EUGGR"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 129,
+            seq-data ncbieaa "MIKQKKKIIKITKKKFPKGIVHIKTTYNNVLVSVSDPKGNVIAWSSSG
+ACGFKSSKKATPLATKTTTAIAVKKAIEQGLQKVEINISGPGTGRETALKCVQSLGLRISCIRDVTPLPHNGCRPSKR
+RRI"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521757"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Cyanophora paradoxa (Glaucocystophyceae);
+ RR11_CYAPA"
+                }
+              }
+            },
+            title "Cyanophora paradoxa (Glaucocystophyceae); RR11_CYAPA"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 130,
+            seq-data ncbieaa "MARQIKRSGTTKQKKNIPVGVAHIQSTFNNTIISITSPTGEVIAWASA
+GSSGFKGARKGTPFAAQTAAENSARQAMEQGMRQIEVIISGPGSGREMAIKALQATGLEISLIRDITPVPHNGCRPPK
+RRRV"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521758"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Emiliania huxleyi (Haptista); RR11_EMIHU"
+                }
+              }
+            },
+            title "Emiliania huxleyi (Haptista); RR11_EMIHU"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 130,
+            seq-data ncbieaa "MIKQVKRFTSKKSKKTVNAGIVHIKSTFNNTIVNITDKQGNTLFWASA
+GGCGFKGAKKSTPFAAQSAAEKVGSMAVEQGMKQAEVIISGPGNGRETAIRALQSCGLEVLLIKDITPVPHNGCRPPK
+KRRV"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521759"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Porphyra purpurea (Rhodophyta); RR11_PORPU"
+                }
+              }
+            },
+            title "Porphyra purpurea (Rhodophyta); RR11_PORPU"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 130,
+            seq-data ncbieaa "MARQIKKSGARKNKHNAVNGITHIKSTFNNTIVTITNLKGETLSWSSS
+GASGFKGAKKGTPFAAQTAAEKAAKQAMDQGMRQTEVLVNGPGAGRETAIRALQAAGLEITLIKDITPVPHNGCRPPK
+KRRV"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521760"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Dasya binghamiae (Rhodophyta); A0A1C8XS08_9FLOR"
+                }
+              }
+            },
+            title "Dasya binghamiae (Rhodophyta); A0A1C8XS08_9FLOR"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 168,
+            seq-data ncbieaa "MQEQEEEQKKQLQEKRKLQENNKLLKIKTNIQKHLTLNNMARQIKKKN
+KKNKKNIINSITHIQSTFNNTIITITDLQGETITWCSSGASGFKGAKKSTPFAAQTAAEKAAQYAIEYGIKQTEVMVK
+GPGTGRETAIRALQAKGIEITLIKDITPVPHNGCRPPKKRRV"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521761"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Chlamydomonas reinhardtii (Viridiplatae;
+ Chlorophyta); RR11_CHLRE"
+                }
+              }
+            },
+            title "Chlamydomonas reinhardtii (Viridiplatae; Chlorophyta);
+ RR11_CHLRE"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 130,
+            seq-data ncbieaa "MAKQTRKLTTNKTKKKIFRGVVHIQAGHHNTIVTITNIRGEVLCWSSA
+GACGFRGKRKSTSFAAKKAAETVARKSRDFTMKAAKILVTGPGQGRESAIREIFKAGIKVSVIREKTGIPHNGCRPPK
+KRSV"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521762"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Helicosporidium sp. subsp. Simulium jonesii
+ (Viridiplatae; Chlorophyta); RR11_HELSJ"
+                }
+              }
+            },
+            title "Helicosporidium sp. subsp. Simulium jonesii (Viridiplatae;
+ Chlorophyta); RR11_HELSJ"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 154,
+            seq-data ncbieaa "MPFLLNNFKFSRFRSFATKLEKTKGFFNYQPLTKFKQKYSLDVAYVYI
+ISSYNNTLISLTDFLGNVLKNESCGSCNYKGRFKRKFIASKQAAENIVSFCKFQRIKRLVIILHGYGKGSEMVIRTIR
+EKELKILDIKIKDKKPYNGCRQKKKRRI"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521763"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Prasinoderma coloniale (Viridiplatae;
+ Prasinodermophyta); A0A088CIA9_9VIRI"
+                }
+              }
+            },
+            title "Prasinoderma coloniale (Viridiplatae; Prasinodermophyta);
+ A0A088CIA9_9VIRI"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 131,
+            seq-data ncbieaa "MQKTKRKNLTTLKRKKKITNGIVYINATFNNTLVTVTDWTGNVYSWSS
+AGACGFRGAKKSTPFAAQTAVRVALQPCIDRGLQTAEVILCGPGSGRETALRAVHTAGVRLTLIRDVTPVPHNGCRPK
+KKRRI"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521764"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Arabidopsis thaliana (Viridiplatae;
+ Streptophyta); RR11_ARATH"
+                }
+              }
+            },
+            title "Arabidopsis thaliana (Viridiplatae; Streptophyta);
+ RR11_ARATH"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 138,
+            seq-data ncbieaa "MAKPILRIGSRKNTRSGSRKNVRRIPKGVIHVQASFNNTIVTVTDVRG
+RVISWSSAGTCGFRGTRRGTPFAAQTAAGNAIRAVVDQGMQRAEVRIKGPGLGRDAALRAIRRSGILLSFVRDVTPMP
+HNGCRPPKKRRV"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521765"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Toxoplasma gondii (Sar; Alveolata; Apicomplexa);
+ Q9XQQ4_TOXGO"
+                }
+              }
+            },
+            title "Toxoplasma gondii (Sar; Alveolata; Apicomplexa);
+ Q9XQQ4_TOXGO"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 135,
+            seq-data ncbieaa "MITNKIFTLYIKSTGKNTFLSLLQNNLIFNTNKLILDKKQNILNTYSC
+GNFGFKNRKKETAFACSFIVTKILLLIINLKIKFFHIVMKGIGLYRKIILTTILTFLNEHPDLKLLSITDLTQSSFNG
+CSSKKRKKH"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521766"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Plasmodium malariae (Sar; Alveolata;
+ Apicomplexa); H7CDF6_PLAMA"
+                }
+              }
+            },
+            title "Plasmodium malariae (Sar; Alveolata; Apicomplexa);
+ H7CDF6_PLAMA"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 128,
+            seq-data ncbieaa "MIFNNIIIFLYFKLTLKNTLVTISKYNTKLIYIKTIKSMSCGSLKYFK
+NRLKNTILANNMLVINIIKYLINKNFLNINIIFNGVNSYRIHILKLLLNIKYKNKQLNINKLFDLTSIPYNGCKISKK
+KC"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521767"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Chromera velia (Sar; Alveolata; Colpodellida);
+ D9IXD9_9ALVE"
+                }
+              }
+            },
+            title "Chromera velia (Sar; Alveolata; Colpodellida); D9IXD9_9ALVE"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 563,
+            seq-data ncbieaa "MSIPSDFERNQWSNLPNRKASSRHKKVRDNRPTTSKTTNFSVSQKPLG
+KQIPESRTVEGPFKKRKPYKWKSKRSEVRTADTKASSLGLTSFKLTKTRNFKTLSGQKGPELRTADVPFKKLKPYTPK
+SKISEDRPMDKKAFSSVAAPWKPTKTMTYKVSKKLFGKKGPELRMVDVPFKKPKPYKSTSKISEGRPIDKPSGATSVK
+LNKTKNFTVSETILSQQRSELPALKSPEKKEERYEPKSKISEGRPNDQTTASAGNSSLKSTKNMKIDVRGAKKKKSWD
+HVSRMIQMYKSTVWRPTPKELYKTNYFTDFFDAYPAFRRILKQDQMAIIILYFQLSRKNTKISIIQSNEAIHLKVIRT
+IDATTPLYGEVAVFNLEKRLEGLRFLPQTVSFNELYIQKYAILAKLKTFITYYSQKWASETFLNWSHPKTYYFLHKYN
+VPYDYLKTFNFDDLTQAFRLPKRKFVRRYERLLTCFTAGMLRLVGKRRSTPFAAREITSKAIRYIRKHDFVYVRVFFR
+GVSANRTYIIRTLFSTSYFGSALKILSLADITSAPYNGCRPKKYRRR"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521768"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Chromerida sp. RM11 (Sar; Alveolata;
+ Colpodellida); D9IXR1_9ALVE"
+                }
+              }
+            },
+            title "Chromerida sp. RM11 (Sar; Alveolata; Colpodellida);
+ D9IXR1_9ALVE"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 143,
+            seq-data ncbieaa "MARFGKTTSKIAVVYVYVTRQNVILTLVDLKSRKGWLDTIDRKRSFLV
+RTVACVSSGQCGFRGKRKTAPFAINLTTKKLLKSASDLGYTHLRLVLRGNGYNRETILKTFLRAKTKQHRIPILSVTD
+VTLAPHNGCRPKNRKRR"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521769"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Karenia mikimotoi (Sar; Alveolata; Dinophyceae);
+ A0A0U1WPB5_KARMI"
+                }
+              }
+            },
+            title "Karenia mikimotoi (Sar; Alveolata; Dinophyceae);
+ A0A0U1WPB5_KARMI"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 243,
+            seq-data ncbieaa "MQELQPTSPRYLIKTDLTSKNKLVHLEMTERRRRKRKKIKSLEEIKIG
+KDFGQHSGSEEVGEGREGGSPERTRRGRKKRLRGQIHILANFSNTIATLTDLKGNVLRWASGGSSGFKNTKKKTPIAA
+RAVVRKLIGETRTMFNITEVQVTVAGAGWGRTYAVWALAKSRVRISRIRCTNSIPYNGCRPRKRRKLRRRTKRKAPAT
+GPFRPLRNNLCKLFLKRGGILKRFLINKKRRRARRRQHS"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521770"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Kryptoperidinium foliaceum (Sar; Alveolata;
+ Dinophyceae); D7PJJ8_9DINO"
+                }
+              }
+            },
+            title "Kryptoperidinium foliaceum (Sar; Alveolata; Dinophyceae);
+ D7PJJ8_9DINO"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 130,
+            seq-data ncbieaa "MAQTNRKSTTKKTKNSFASGIVHIQSTFNNTIVTITNLTGDTVSWASA
+GSSGFKGARKSTPFAAQTAAEKAALTALSTGMKNVEILVKGQGSGRETAIRAIEGAGFEITSIQDITSVPHNGCRPPK
+RRRV"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521771"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Lepidodinium chlorophorum (Sar; Alveolata;
+ Dinophyceae); A0A0F7R552_LEPCH"
+                }
+              }
+            },
+            title "Lepidodinium chlorophorum (Sar; Alveolata; Dinophyceae);
+ A0A0F7R552_LEPCH"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 136,
+            seq-data ncbieaa "MVHFIAKIVSPTFQIKKAYQKGIVHIRTTYNNTLITIRSNFGKVIAWS
+SSGICGFRGARKRTPFAAKTVAENAAKKTMKHGIQKVRVYLFGPGFGREIAIRRICEGFHVKIIRDVTALPHNGCRSP
+KRRRVLIKWF"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521772"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Bigelowiella natans (Sar; Rhizaria; Cercozoa);
+ RR11_BIGNA"
+                }
+              }
+            },
+            title "Bigelowiella natans (Sar; Rhizaria; Cercozoa); RR11_BIGNA"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 130,
+            seq-data ncbieaa "MVKQIRKLTIKKAKWKASDGIVYIYATLNNTIITIVDTSGRVVSWSSA
+GICGFRGARKASPFAAKTAAEYAARQCINKGINRAQVLVKGLGTGRHTSIRGLQDAGLKISLIRDITTTPHNGCRQPK
+RRRV"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521773"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Paulinella micropora (Sar; Rhizaria; Imbricatea);
+ A0A1L5YCB3_9EUKA"
+                }
+              }
+            },
+            title "Paulinella micropora (Sar; Rhizaria; Imbricatea);
+ A0A1L5YCB3_9EUKA"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 130,
+            seq-data ncbieaa "MAKPTKKSGPKKSKRNVPNGVAHIQSTFNNTIVSIADTAGEVIAWSSA
+GASGFKGARKGTPFAAQTAAEAAARRALEQGMRQIEVLVRGPGSGRETAIRALQVAGLEITLIRDVTPLPHNGCRRPK
+RRRV"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521774"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Thalassiosira pseudonana (Sar; Stramenopiles;
+ Ochrophyta; Bacillariophyta); RR11_THAPS"
+                }
+              }
+            },
+            title "Thalassiosira pseudonana (Sar; Stramenopiles; Ochrophyta;
+ Bacillariophyta); RR11_THAPS"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 130,
+            seq-data ncbieaa "MAQKFRKQAVKKNRTNLGTGVVHIQSTFNNTIVTITNMSGDTISWASS
+GSSGFKGARKGTPFAAQTAAEKAALDALSTGIKTVEILVKGQGSGRETAIRSIEGAGLEILSIQDITPVPHNGCRPRK
+RRRV"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521775"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Heterosigma akashiwo (Sar; Stramenopiles;
+ Ochrophyta; Raphidophyceae); RR11_HETA4"
+                }
+              }
+            },
+            title "Heterosigma akashiwo (Sar; Stramenopiles; Ochrophyta;
+ Raphidophyceae); RR11_HETA4"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 127,
+            seq-data ncbieaa "MIKQIKRKKVKKNVVVGVVHIQASFNNTIVTITDLGGNTLSTGSAGAV
+GFKGARKGTPFAAQLASEKAAEKATEYGLKKVEVLVKGQGSGRETAVRAIQNSDIEITAITDITSIPFNGCRPPKRRRV"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521776"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Poteriospumella lacustris (Sar; Stramenopiles;
+ Ochrophyta; Chrysophyceae); A0A7S6TB71_9STRA"
+                }
+              }
+            },
+            title "Poteriospumella lacustris (Sar; Stramenopiles; Ochrophyta;
+ Chrysophyceae); A0A7S6TB71_9STRA"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 126,
+            seq-data ncbieaa "MITHNKKKQKKTHISGVAHIKTTFNNCIITISDLLGNTLCWSSSGCSG
+LKGARKSTAFAAQSAAKLAALKAADFGIKKIDIIVKGRGKGRESSIRALKLAGLRILSIEDKTRVPFNGCRPPKRRRL"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521777"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Rhizochromulina marina (Sar; Stramenopiles;
+ Ochrophyta; Dictyochophyceae); A0A514CPU9_9STRA"
+                }
+              }
+            },
+            title "Rhizochromulina marina (Sar; Stramenopiles; Ochrophyta;
+ Dictyochophyceae); A0A514CPU9_9STRA"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 132,
+            seq-data ncbieaa "MLAKTKTTSSSTRKQKLNINIGVVHIQSTFNNTIVTVTDVSGNTISWG
+SAGSSGFKGARKGTPFAAQTASENACLTALNLGLKKVDILVNGQGSGRETAIRAIQNSGLEILSINDITSVPHNGCRP
+PKKRRV"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521778"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Nannochloropsis gaditana (Sar; Stramenopiles;
+ Ochrophyta; Eustigmatophyceae); K9ZXL8_9STRA"
+                }
+              }
+            },
+            title "Nannochloropsis gaditana (Sar; Stramenopiles; Ochrophyta;
+ Eustigmatophyceae); K9ZXL8_9STRA"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 127,
+            seq-data ncbieaa "MNQKLNKGKRKINLSLGFACIHSTFNNTIISITDPKGNVITWASAGSS
+GFKGSRKKTQYAAQMAAKNASAKALKLGIKKVGVILNGPGNGREIAIKGIHATGLEIISIEDKTGVPHNGCRAPKRRRV"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521779"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Costaria costata (Sar; Stramenopiles; Ochrophyta;
+ PX clade; Phaeophyceae); A0A0S0GLZ9_COSCS"
+                }
+              }
+            },
+            title "Costaria costata (Sar; Stramenopiles; Ochrophyta; PX clade;
+ Phaeophyceae); A0A0S0GLZ9_COSCS"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 123,
+            seq-data ncbieaa "MKKKMKRTIVTGTMHVHATFNNTIVTVSDLNGNTLSWASSGTVDFKGS
+RKGTPFASQKAAEKAALIAKEAYGLKRLEVVIKGSGPGREPAIRAVYQKGIRIVSIKDVTFIPYNGCRPPKRRRV"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521780"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Vaucheria litorea (Sar; Stramenopiles;
+ Ochrophyta; PX clade; Xanthophyceae); B7T1W4_VAULI"
+                }
+              }
+            },
+            title "Vaucheria litorea (Sar; Stramenopiles; Ochrophyta; PX
+ clade; Xanthophyceae); B7T1W4_VAULI"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 126,
+            seq-data ncbieaa "MFQKTKKKIKRNIPSGIVHIHSTFNNTIITVTDLKGNSVAWASAGTAG
+FKGTRKGTSFAAQLAAKKATLQAIDSGLKKVKVLVKGRGPGRETAIRALQTTGVKIVSIKDITPIPYNGCRPPNRRRV"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521781"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Aureococcus anophagefferens (Sar; Stramenopiles;
+ Ochrophyta; Pelagophyceae); C6KIM2_AURAN"
+                }
+              }
+            },
+            title "Aureococcus anophagefferens (Sar; Stramenopiles;
+ Ochrophyta; Pelagophyceae); C6KIM2_AURAN"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 129,
+            seq-data ncbieaa "MVVKTKRSTKKQKKNIVSGVVHINSTFNNTIITITDLAGNTISWSSAG
+SVGFKGARKGTPFAAQTATEAASTAAMGQGLRKVEVLIRGQGSGRETSVRALEVLGLDIVSIKDITPIPHNGCRPPKR
+RRV"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521782"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Synura sphagnicola (Sar; Stramenopiles;
+ Ochrophyta; Synurophyceae); A0A3G2QYQ8_9STRA"
+                }
+              }
+            },
+            title "Synura sphagnicola (Sar; Stramenopiles; Ochrophyta;
+ Synurophyceae); A0A3G2QYQ8_9STRA"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 125,
+            seq-data ncbieaa "MVKQKKSKKKVVAVGIANIKTTFNNTLVTISDLLGNTICWSSAGSSGF
+KGARKNTPFAAQTAARNAALKALELGMEKVEIVIKGRGNGRETSVRALKSAGLNILSIEDKTSIPHNGCRPPKKRRL"
+          }
+        },
+        seq {
+          id {
+            local str "Query_521783"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">Triparma laevis (Sar; Stramenopiles; Ochrophyta;
+ Bolidophyceae); A0A0K2RWC8_9STRA"
+                }
+              }
+            },
+            title "Triparma laevis (Sar; Stramenopiles; Ochrophyta;
+ Bolidophyceae); A0A0K2RWC8_9STRA"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 127,
+            seq-data ncbieaa "MVQKIKTKKDKRIIPLGVVHIQSTFNNTIVTISDIKGDTLSWASAGST
+GFKGARKSTPFAAQTAAEKAALDAVNLGLKKVEIVVKGQGSGRETAIRSIQGAGLEIISIKDITPVPHNGCRPPKRRRV"
+          }
+        }
+      }
+    },
+    subject database "nr",
+    algorithm-options {
+      {
+        name "WordSize",
+        value integer 6
+      },
+      {
+        name "WordThreshold",
+        value integer 21
+      },
+      {
+        name "EvalueThreshold",
+        value cutoff e-value { 5, 10, -2 }
+      },
+      {
+        name "UngappedMode",
+        value boolean FALSE
+      },
+      {
+        name "PercentIdentity",
+        value real { 0, 10, 0 }
+      },
+      {
+        name "HitlistSize",
+        value integer 100
+      },
+      {
+        name "EffectiveSearchSpace",
+        value big-integer 0
+      },
+      {
+        name "DbLength",
+        value big-integer 0
+      },
+      {
+        name "WindowSize",
+        value integer 40
+      },
+      {
+        name "SegFiltering",
+        value boolean FALSE
+      },
+      {
+        name "MaskAtHash",
+        value boolean FALSE
+      },
+      {
+        name "MatrixName",
+        value string "BLOSUM62"
+      },
+      {
+        name "GapOpeningCost",
+        value integer 11
+      },
+      {
+        name "GapExtensionCost",
+        value integer 1
+      },
+      {
+        name "CompositionBasedStats",
+        value integer 2
+      },
+      {
+        name "SmithWatermanMode",
+        value boolean FALSE
+      }
+    },
+    program-options {
+      {
+        name "EntrezQuery",
+        value string "txid2759 [ORGN]"
+      }
+    },
+    format-options {
+      {
+        name "Web_JobTitle",
+        value string "80 sequences (Acanthamoeba castellanii (Amoebozoa;..."
+      },
+      {
+        name "Web_OrganismName",
+        value string "Eukarya (taxid:2759)"
+      },
+      {
+        name "Web_ShortQueryAdjust",
+        value boolean TRUE
+      }
+    }
+  }
+}
+

@@ -1,3 +1,7 @@
-*.xml
-*.tab
-*.csv
+*.*#
+*.png
+.ipynb_checkpoints
+__pycache__
+taxonid.csv
+taxid.tab
+taxonomy_result.xml
